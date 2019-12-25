@@ -1,0 +1,56 @@
+OpenApp
+Alice 0
+Bob 0
+Carol 0
+SendMessage 132532 Bob Hello
+132532 me Hello
+CloseApp
+NotifyUser Alice
+NotifyUser Bob
+NotifyUser Bob
+OpenApp
+Alice 1
+Bob 2
+Carol 0
+SendMessage 132253 Alice Hi Alice
+132251 Alice Hi
+132253 me Hi Alice
+DisplayConversation Bob
+132532 me Hello
+132534 Hi there!
+132535 How's it going?
+DeleteMessage 132253 Alice
+132251 Alice Hi
+DeleteMessage 132253 Alice
+132251 Alice Hi
+DeleteMessage 141613 Carol
+SendMessage 141217 Bob I'm good. How are you doing?
+132532 me Hello
+132534 Bob Hi there!
+132535 Bob How's it going?
+141217 me I'm good. How are you doing?
+DeleteMessage 132534 Bob
+132532 me Hello
+132535 Bob How's it going?
+141217 me I'm good. How are you doing?
+CloseApp
+NotifyUser Bob
+NotifyUser Carol
+NotifyUser Carol
+OpenApp
+Alice 0
+Bob 1
+Carol 2
+DeleteMessage 132532 Bob
+132535 Bob How's it going?
+135154 Bob Are you still there?
+141217 me I'm good. How are you doing?
+SendMessage 235721 Carol Are you still awake?
+235721 me Are you still awake?
+235807 Carol It's getting late now
+235821 Carol I'll text you back tomorrow
+SendMessage 235651 Carol Hey Carol
+235651 me Hey Carol
+235721 me Are you still awake?
+235807 Carol It's getting late now
+235821 Carol I'll text you back tomorrow

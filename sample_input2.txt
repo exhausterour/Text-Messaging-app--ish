@@ -1,0 +1,26 @@
+OpenApp
+SendMessage 132532 Bob Hello
+CloseApp
+ReceiveMessage 132251 Alice Hi
+ReceiveMessage 132535 Bob How's it going?
+ReceiveMessage 132534 Bob Hi there!
+OpenApp
+SendMessage 132253 Alice Hi Alice
+DisplayConversation Bob
+DeleteMessage 132253 Alice
+DeleteMessage 132253 Alice
+DeleteMessage 141613 Carol
+SendMessage 141217 Bob I'm good. How are you doing?
+DeleteMessage 132534 Bob
+SendMessage 172253 Alice check4
+SendMessage 152253 Alice check2
+SendMessage 162253 Alice check3
+SendMessage 142253 Alice check1
+CloseApp
+ReceiveMessage 135154 Bob Are you still there?
+ReceiveMessage 235821 Carol I'll text you back tomorrow
+ReceiveMessage 235807 Carol It's getting late now
+OpenApp
+DeleteMessage 132532 Bob
+SendMessage 235721 Carol Are you still awake?
+SendMessage 235651 Carol Hey Carol
